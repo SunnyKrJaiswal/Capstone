@@ -1,11 +1,5 @@
 Sunny Kumar Jaiswal
 
-Introduction
-
-Jeronimo wants to open his Burger Joint in some Locality (District) of Bogotá, Colombia.
-And he is asking our help in finding the best Locality.
-
-Business Problem 
-
-In order to open Jeronimo's burger joint, we will have the need to use some information about the Localities in Bogotá.
-We must be sure that the place where the burger joint is opened will have enough customers and also that there aren't a large ammount of burer joints in the place.
+The data will contain two parts: geographic data and venue information of Toronto.
+The first part of data, which is the geographic data of Toronto, can be scratched from Wikipedia. The geographic data contains the neighbourboods within each district. In addition, the district postal code data will be gained via google map api. 
+The second part of data, the venue information of each neighbourhood (e.g., the amount of cafe, the overall rating and the amount of rating of each cafe) will be gained via Foursquare API. Idealy, the photos and comments of popular cafes will be collected to understand which kind of cafe will be popular in Toronto.
